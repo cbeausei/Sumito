@@ -7,7 +7,7 @@ import android.view.MenuItem;
  // COMMENTAIRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRE TESTTTTTTT
  // Commentaire reçu 5 sur 5, let's code !!
  // Patate bleue
-
+ // C'est Jinglei !!
 public class FirstPage extends ActionBarActivity {
 
     @Override

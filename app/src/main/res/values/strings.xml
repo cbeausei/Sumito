@@ -4,5 +4,11 @@
     <string name="app_name">Sumito</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="Sumito">Sumito</string>
+    <string name="Nouvellepartie">Nouvelle partie</string>
+    <string name="Tutoriel">Turoriel</string>
+    <string name="Paramètres">Paramètres</string>
+    <string name="Défis">Défis</string>
+    <string name=""></string>
 
 </resources>

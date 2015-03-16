@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text=""/>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    android:layout_centerVertical="true"
+    >
 
+    <TextView
+        android:id="@+id/nomjeu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/boutonhdpi"
+
+    />
+    <Button
+        android:id="@+id/nouvellepartie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nouvellepartie"
+        android:layout_below="@id/nomjeu"
+
+    />
+
+
+    <Button
+        android:id="@+id/tutoriel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tutoriel"
+        android:layout_below="@id/nouvellepartie"/>
+
+    <Button
+        android:id="@+id/defis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Défis"
+        android:layout_below="@id/tutoriel"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Paramètres"
+        android:layout_below="@id/defis"/>
 
 </RelativeLayout>

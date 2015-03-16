@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Nouvellepartie"
         android:layout_below="@id/nomjeu"
+        android:layout_centerHorizontal="true"
     />
 
 
@@ -31,18 +32,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Tutoriel"
-        android:layout_below="@id/nouvellepartie"/>
+        android:layout_below="@id/nouvellepartie"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/defis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Défis"
-        android:layout_below="@id/tutoriel"/>
+        android:layout_below="@id/tutoriel"
+        android:layout_centerHorizontal="true"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Paramètres"
-        android:layout_below="@id/defis"/>
+        android:layout_below="@id/defis"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

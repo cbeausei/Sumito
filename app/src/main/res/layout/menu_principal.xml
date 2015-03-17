@@ -3,9 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/parent"
-
-    android:layout_centerHorizontal="true"
     android:background="@drawable/Rz_104"
+    android:gravity="center"
     >
 
     <TextView
@@ -13,11 +12,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:background="@drawable/bouton"
+        android:background="#FF0000"
 
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/nouvellepartie"
-        android:layout_alignEnd="@+id/nouvellepartie" />
+        android:gravity="center"
+        android:layout_alignEnd="@+id/nouvellepartie"
+        android:layout_above="@+id/nouvellepartie"
+        android:layout_centerInParent="true"
+        android:layout_alignLeft="@+id/buttonparam"
+        android:layout_alignRight="@+id/buttonparam"
+        android:layout_alignStart="@+id/buttonparam"/>
     <Button
         android:id="@+id/nouvellepartie"
         android:layout_width="wrap_content"
@@ -25,8 +28,11 @@
         android:text="@string/Jouer"
 
         android:layout_above="@+id/tutoriel"
-        android:layout_alignLeft="@+id/tutoriel"
-        android:layout_alignStart="@+id/tutoriel" />
+
+        android:layout_centerInParent="true"
+        android:layout_alignLeft="@+id/buttonparam"
+        android:layout_alignRight="@+id/buttonparam"
+        android:layout_alignStart="@+id/buttonparam"/>
 
 
     <Button
@@ -35,23 +41,28 @@
         android:layout_height="wrap_content"
         android:text="@string/Tutoriel"
         android:layout_above="@+id/defis"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/buttonparam"
+        android:layout_alignRight="@+id/buttonparam"
+        android:layout_alignStart="@+id/buttonparam"/>
 
     <Button
         android:id="@+id/defis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Défis"
-        android:layout_above="@+id/button"
-        android:layout_alignLeft="@+id/tutoriel"
-        android:layout_alignStart="@+id/tutoriel" />
+        android:layout_above="@+id/buttonparam"
+        android:layout_alignLeft="@+id/buttonparam"
+        android:layout_alignRight="@+id/buttonparam"
+        android:layout_alignStart="@+id/buttonparam" />
 
     <Button
+        android:id="@+id/buttonparam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Paramètres"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button" />
+         />
 
 </RelativeLayout>

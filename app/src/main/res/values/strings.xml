@@ -9,6 +9,7 @@
     <string name="Paramètres">Paramètres</string>
     <string name="Défis">Défis</string>
     <string name="Jouer">Jouer</string>
+    <string name="title_activity_main">MainActivity</string>
 
 
 </resources>

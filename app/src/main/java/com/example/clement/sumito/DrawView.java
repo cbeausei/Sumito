@@ -13,13 +13,13 @@ import com.example.clement.sumito.R;
 public class DrawView extends View {
     Paint paint = new Paint();
     Canvas canvas = new Canvas();
-    Bitmap boule, plateau;
+    Bitmap boules[], plateau;
     float x = 10, y = 20;
     int w, h, width, height;
 
     public DrawView(Context context) {
         super(context);
-        boule = BitmapFactory.decodeResource(getResources(), R.drawable.boulenoire);
+        boules = new Bitmap[] {BitmapFactory.decodeResource(getResources(), R.drawable.boulenoire), BitmapFactory.decodeResource(getResources(), R.drawable.boulenoire)};
         plateau = BitmapFactory.decodeResource(getResources(), R.drawable.cadre);
     }
 
@@ -36,14 +36,12 @@ public class DrawView extends View {
             width = 1420 * h / 1073;
         }
 
-        boule = Bitmap.createScaledBitmap(boule, height / 10, height / 10, true);
+        boules[0] = Bitmap.createScaledBitmap(boules[0], height / 10, height / 10, true);
+        boules[1] = Bitmap.createScaledBitmap(boules[0], height / 10, height / 10, true);
         plateau = Bitmap.createScaledBitmap(plateau, width, height, true);
         canvas.drawBitmap(plateau, (w - width) / 2, (h - height) / 2, null);
-        canvas.drawBitmap(boule, x - h / 40, y - h / 40, null);
-    }
-
-    public void dessinerBoule(final Canvas canvas) {
-        canvas.drawBitmap(boule, x, y, null);
+        canvas.drawBitmap(boules[0], x - h / 40, y - h / 40, null);
+        canvas.drawBitmap(boules[1], x + h / 40, y + h / 40, null);
     }
 
     @Override

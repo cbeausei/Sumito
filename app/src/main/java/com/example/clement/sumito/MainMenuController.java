@@ -1,9 +1,7 @@
 package com.example.clement.sumito;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,7 +19,7 @@ public class MainMenuController extends Activity {
         newGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mainActivity=new Intent(MainMenuController.this,MainActivity.class);
+                Intent mainActivity=new Intent(MainMenuController.this,ChooseMode.class);
                 startActivity(mainActivity);
 
             }

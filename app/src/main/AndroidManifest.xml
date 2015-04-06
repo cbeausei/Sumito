@@ -25,6 +25,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ChooseMode"
+            android:label="@string/title_activity_choose" >
+        </activity>
+        <activity
+            android:name=".DifficultyLevel"
+            android:label="@string/title_activity_choose" >
+        </activity>
     </application>
 
 </manifest>

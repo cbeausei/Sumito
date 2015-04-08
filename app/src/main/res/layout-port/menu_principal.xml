@@ -21,7 +21,7 @@
         android:layout_alignRight="@+id/buttonparam"
 
         android:layout_alignParentTop="true"
-       />
+        />
     <Button
         android:id="@+id/nouvellepartie"
         android:layout_width="wrap_content"
@@ -45,6 +45,7 @@
         android:layout_alignLeft="@+id/buttonparam"
         android:layout_alignRight="@+id/buttonparam"
         android:background="@drawable/bouton"
+        android:layout_marginTop="30dip"
 
         />
 
@@ -58,6 +59,7 @@
         android:layout_alignLeft="@+id/buttonparam"
         android:layout_alignRight="@+id/buttonparam"
         android:background="@drawable/bouton"
+        android:layout_marginTop="30dip"
 
         />
 
@@ -69,6 +71,7 @@
         android:background="@drawable/bouton"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="30dip"
-         />
+        android:layout_marginTop="30dip"
+        />
 
 </RelativeLayout>

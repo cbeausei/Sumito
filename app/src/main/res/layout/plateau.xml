@@ -1,80 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@drawable/rz_104">
-    <TableLayout
-        android:layout_width="350dip"
-        android:layout_height="350dip"
-        android:layout_marginLeft="200dip"
+    android:background="@drawable/fond">
 
-        >
-        <TableRow>
-        <Button
-            android:layout_weight="60"
-            />
-
-        <Button  android:layout_weight="40"/>
-        <Button />
-        <Button />
-        </TableRow>
-        <TableRow>
-            <Button
-
-                android:layout_height="wrap_content"
-                />
-
-            <Button />
-            <Button />
-            <Button />
-        </TableRow>
-        <TableRow>
-            <Button
-
-                android:layout_height="wrap_content"
-                />
-
-            <Button />
-            <Button />
-            <Button />
-        </TableRow>
-        <TableRow>
-            <Button
-
-                android:layout_height="wrap_content"
-                />
-
-            <Button />
-            <Button />
-            <Button />
-        </TableRow><TableRow>
-        <Button
-
-            android:layout_height="wrap_content"
-            />
-
-        <Button />
-        <Button />
-        <Button />
-    </TableRow><TableRow>
-        <Button
-
-            android:layout_height="wrap_content"
-            />
-
-        <Button />
-        <Button />
-        <Button />
-    </TableRow><TableRow>
-        <Button
-
-            android:layout_height="wrap_content"
-            />
-
-        <Button />
-        <Button />
-        <Button />
-    </TableRow>
-        </TableLayout>
+    <com.example.clement.sumito.DrawView
+        android:id="@+id/plateauetfond"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 
 
 </LinearLayout>

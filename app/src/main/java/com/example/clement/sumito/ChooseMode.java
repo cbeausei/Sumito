@@ -1,5 +1,6 @@
 package com.example.clement.sumito;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -9,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class ChooseMode extends ActionBarActivity {
+public class ChooseMode extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,7 @@ public class ChooseMode extends ActionBarActivity {
 
     }
 
-
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -57,4 +58,5 @@ public class ChooseMode extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    */
 }
